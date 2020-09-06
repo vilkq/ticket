@@ -1,0 +1,107 @@
+@import "../font/museosanscyrl.css";
+@import "../font/notcourier.css";
+
+body {
+	color: #000000;
+	font-family: Arial, Trebuchet MS, Verdana, Tahoma, Sans-Serif;
+	font-size: 12px;
+	margin:4% 30% 0 30%;
+}
+
+#create {
+	position: absolute;
+	top: 60px;
+	width: 700px;
+	text-indent:70px;
+	border:1px solid #DADADA;
+}
+
+#people {
+	position: absolute;
+	margin: 530px 0 40px 0;
+	width: 700px;
+}
+
+#peoplelist{
+	width: 700px;
+	font-family: courier;
+	color:#000;
+}
+
+#peoplelist tr:hover{
+	background-color:#66ff66;
+	cursor:pointer;
+}
+
+h2 {
+	text-align:center;
+	text-indent:0px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+hr {
+	height: 0px;
+	border: 0px;
+	border-bottom: 1px solid #DADADA;
+	margin: 5px 5px 5px 5px;
+
+}
+
+#create_ticket {
+	background-color:#fff;
+	border:1px solid #000;
+	height:22px;
+	width:150px;
+	margin:0 0 18px 336px;
+	font-family: 'tahoma';
+	font-size:14px;
+	font-weight:500;
+}
+
+#open_ticket {
+	background-color:#fff;
+	border:1px solid #ccc;
+	height:22px;
+	width:200px;
+	margin:0 0 18px 4px;
+	font-family: 'tahoma';
+	font-size:14px;
+	font-weight:400;
+	color:#666;
+}
+
+#index_done {
+	background-color:#fff;
+	border:1px solid #000;
+	height:34px;
+	width:250px;
+	margin-left:80px;
+	font-family: 'Museo Sans Cyrl';
+	font-size:16px;
+	font-weight:400;
+	float:left;
+}
+
+#open_ticket_done {
+	background-color:#fff;
+	border:1px solid #000;
+	height:34px;
+	width:250px;
+	margin-right:80px;
+	font-family: 'Museo Sans Cyrl';
+	font-size:16px;
+	font-weight:400;
+	float:right;
+}
+
+#message {
+	margin:170px auto 40px auto;
+	text-align:center;
+	font-family: 'NotCourierSans';
+	font-size:43px;
+	color:#000099;
+}
